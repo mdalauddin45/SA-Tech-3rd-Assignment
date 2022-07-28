@@ -8,3 +8,7 @@ body {
 .carousel-item img {
     height: 700px;
 }
+
+.carousel-item img {
+    filter: brightness(50%);
+}
