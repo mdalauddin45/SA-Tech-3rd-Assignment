@@ -15,8 +15,8 @@
 
 <body>
     <!-- header section start  -->
-    <header>
-        <section class="container ">
+    <header class="container">
+        <section>
             <!-- navbar start  -->
             <nav class="navbar navbar-expand-lg">
                 <div class="container-fluid">
@@ -56,13 +56,16 @@
             </nav>
         </section>
         <!-- cover section start  -->
-        <section class="container pt-4">
-            <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <section>
+
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+                <div class="carousel-indicators">
+                </div>
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="./images/cover/cover-1.png" class="d-block w-100" alt="...">
+                        <img src="images/cover/cover-1.png" class="d-block w-100" alt="...">
                         <div class="carousel-caption d-block d-sm-block d-md-block pb-5">
-                            <h1 class=" fw-bolder">Get Started SA-Tech Web Developer Course</h1>
+                            <h1 class=" fw-bolder">Get Started SA-Tach Developer Course</h1>
                             <p>Information technology (IT) is the use of any computers, storage, networking and other
                                 physical devices, infrastructure and processes to create, process, store, secure and
                                 exchange all forms of electronic data.</p>
@@ -70,215 +73,203 @@
 
                         </div>
                     </div>
-                    <div class="carousel-item">
-                        <img src="./images/cover/cover-2.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-block d-sm-block d-md-block pb-5">
-                            <h1 class=" fw-bolder">Get Started SA-Tech Web Developer Course</h1>
-                            <p>Information technology (IT) is the use of any computers, storage, networking and other
-                                physical devices, infrastructure and processes to create, process, store, secure and
-                                exchange all forms of electronic data.</p>
-                            <div class="btn btn-primary p-2">Get Started</div>
-
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="./images/cover/cover-3.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-block d-sm-block d-md-block pb-5">
-                            <h1 class=" fw-bolder">Get Started SA-Tech Web Developer Course</h1>
-                            <p>Information technology (IT) is the use of any computers, storage, networking and other
-                                physical devices, infrastructure and processes to create, process, store, secure and
-                                exchange all forms of electronic data.</p>
-                            <div class="btn btn-primary p-2">Get Started</div>
-
-                        </div>
-                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                        data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
-            </div>
         </section>
     </header>
     <!-- header section end -->
     <!-- main section start  -->
-    <main class="container mt-5 pb-5">
+    <main>
 
 
         <!-- courses section start  -->
 
 
-        <section>
-            <div class="d-flex flex-column justify-content-center align-items-center">
-                <h1 class="fs-1 fw-bold">Discover Our Popular Courses</h1>
-                <p class="fs-5">The Perfect Introductory UX Design Course for Beginners</p>
-                <div class="container mt-5 mb-5">
-                    <div class="row row-cols-1 row-cols-md-1 row-cols-lg-2 ">
-                        <div class="col mb-4 ">
-                            <div class="d-flex border border-rounded shadow-sm  ">
-                                <div class="me-4">
-                                    <img src="./images/course/course-1.png" alt="">
-                                </div>
-                                <div class="pt-3 pe-2">
-                                    <h3>Fundamental Of UI/UX Design</h3>
-                                    <p>Whether you’ve just googled “ux design” for the first time, or you’re already
-                                        wondering if UX
-                                        design
-                                        might be a good </p>
-                                    <h4 class="text-info text-bolded">Price : 20$</h4>
-                                </div>
+        <section class="container p-5">
+            <div class="text-center">
+                <h2 class=" fw-bolder">Discover Our Popular Courses</h2>
+                <p> We'll cover the basics of web development, the process of creating a website, and additional
+                    resources for those who want to learn more about development — or become a developer themselves.</p>
+            </div>
+
+            <div class="container  mt-5 mb-5">
+                <div class="row g-4">
+                    <div class="col-lg-6 col-md-12">
+                        <div
+                            class="border border-0 shadow-lg d-flex flex-column flex-lg-row flex-md-row flex-sm-column w-100 gx-2 gy-2">
+                            <img src="images/course/course-1.png"
+                                class="img-fluid col-12 col-lg-4 col-md-4 col-sm-12 gap-0 p-0 ms-0" alt="...">
+
+                            <div class="p-3 col-12 col-lg-8 col-md-8 col-sm-12 gx-3">
+                                <h5 class="card-title">Fundamental Of UI/UX Design</h5>
+                                <span class="card-text"> This set of articles aims to guide complete beginners to web
+                                    development. </span>
+                                <br>
+                                <span class="text-primary  fw-bolder">Price : 20$</span>
                             </div>
                         </div>
-                        <div class="col  mb-4">
-                            <div class="d-flex border border-rounded shadow-sm  ">
-                                <div class="me-4">
-                                    <img src="./images/course/course-2.png" alt="">
-                                </div>
-                                <div class="pt-3 pe-2">
-                                    <h3>Javascript Basic to advanced</h3>
-                                    <p>Whether you’ve just googled “ux design” for the first time, or you’re already
-                                        wondering if UX
-                                        design
-                                        might be a good </p>
-                                    <h4 class="text-info text-bolded">Price : 20$</h4>
-                                </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div
+                            class="border border-0 shadow-lg d-flex flex-column flex-lg-row flex-md-row flex-sm-column w-100 gx-2 gy-2">
+                            <img src="images/course/course-2.png"
+                                class="img-fluid col-12 col-lg-4 col-md-4 col-sm-12 gap-0 p-0 ms-0" alt="...">
+
+                            <div class="p-3 w-75 gx-3">
+                                <h5 class="card-title">Javascript Basic to advanced</h5>
+                                <span class="card-text"> This set of articles aims to guide complete beginners to web
+                                    development. </span>
+                                <br>
+                                <span class="text-primary  fw-bolder">Price : 20$</span>
                             </div>
                         </div>
-                        <div class="col  mb-4">
-                            <div class="d-flex border border-rounded shadow-sm  ">
-                                <div class="me-4">
-                                    <img src="./images/course/course-3.png" alt="">
-                                </div>
-                                <div class="pt-3 pe-2">
-                                    <h3>Fullstack Web Development</h3>
-                                    <p>Whether you’ve just googled “ux design” for the first time, or you’re already
-                                        wondering if UX
-                                        design
-                                        might be a good </p>
-                                    <h4 class="text-info text-bolded">Price : 20$</h4>
-                                </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div
+                            class="border border-0 shadow-lg d-flex flex-column flex-lg-row flex-md-row flex-sm-column w-100 gx-2 gy-2">
+                            <img src="images/course/course-3.png"
+                                class="img-fluid col-12 col-lg-4 col-md-4 col-sm-12 gap-0 p-0 ms-0" alt="...">
+
+                            <div class="p-3 w-75 gx-3">
+                                <h5 class="card-title">Fullstack Web Development</h5>
+                                <span class="card-text"> This set of articles aims to guide complete beginners to web
+                                    development. </span>
+                                <br>
+                                <span class="text-primary  fw-bolder">Price : 20$</span>
                             </div>
                         </div>
-                        <div class="col  mb-4">
-                            <div class="d-flex border border-rounded shadow-sm  ">
-                                <div class="me-4">
-                                    <img src="./images/course/course-4.png" alt="">
-                                </div>
-                                <div class="pt-3 pe-2">
-                                    <h3>Digital Marketing</h3>
-                                    <p>Whether you’ve just googled “ux design” for the first time, or you’re already
-                                        wondering if UX
-                                        design
-                                        might be a good </p>
-                                    <h4 class="text-info text-bolded">Price : 20$</h4>
-                                </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div
+                            class="border border-0 shadow-lg d-flex flex-column flex-lg-row flex-md-row flex-sm-column w-100 gx-2 gy-2">
+                            <img src="images/course/course-4.png"
+                                class="img-fluid col-12 col-lg-4 col-md-4 col-sm-12 gap-0 p-0 ms-0" alt="...">
+
+                            <div class="p-3 w-75 gx-3">
+                                <h5 class="card-title">Digital Marketing</h5>
+                                <span class="card-text"> This set of articles aims to guide complete beginners to web
+                                    development. </span>
+                                <br>
+                                <span class="text-primary  fw-bolder">Price : 20$</span>
                             </div>
                         </div>
-                        <div class="col  mb-4">
-                            <div class="d-flex border border-rounded shadow-sm  ">
-                                <div class="me-4">
-                                    <img src="./images/course/course-5.png" alt="">
-                                </div>
-                                <div class="pt-3 pe-2">
-                                    <h3>Photography Basic Rules</h3>
-                                    <p>Whether you’ve just googled “ux design” for the first time, or you’re already
-                                        wondering if UX
-                                        design
-                                        might be a good </p>
-                                    <h4 class="text-info text-bolded">Price : 20$</h4>
-                                </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div
+                            class="border border-0 shadow-lg d-flex flex-column flex-lg-row flex-md-row flex-sm-column w-100 gx-2 gy-2">
+                            <img src="images/course/course-5.png"
+                                class="img-fluid col-12 col-lg-4 col-md-4 col-sm-12 gap-0 p-0 ms-0" alt="...">
+
+                            <div class="p-3 w-75 gx-3">
+                                <h5 class="card-title">Photography Basic Rules</h5>
+                                <span class="card-text"> This set of articles aims to guide complete beginners to web
+                                    development. </span>
+                                <br>
+                                <span class="text-primary  fw-bolder">Price : 20$</span>
                             </div>
                         </div>
-                        <div class="col  mb-4">
-                            <div class="d-flex border border-rounded shadow-sm  ">
-                                <div class="me-4">
-                                    <img src="./images/course/course-6.png" alt="">
-                                </div>
-                                <div class="pt-3 pe-2">
-                                    <h3>Motion Graphics</h3>
-                                    <p>Whether you’ve just googled “ux design” for the first time, or you’re already
-                                        wondering if UX
-                                        design
-                                        might be a good </p>
-                                    <h4 class="text-info text-bolded">Price : 20$</h4>
-                                </div>
+                    </div>
+                    <div class="col-lg-6 col-md-12">
+                        <div
+                            class="border border-0 shadow-lg d-flex flex-column flex-lg-row flex-md-row flex-sm-column w-100 gx-2 gy-2">
+                            <img src="images/course/course-6.png"
+                                class="img-fluid col-12 col-lg-4 col-md-4 col-sm-12 gap-0 p-0 ms-0" alt="...">
+
+                            <div class="p-3 w-75 gx-3">
+                                <h5 class="card-title">Motion Graphics</h5>
+                                <span class="card-text"> This set of articles aims to guide complete beginners to web
+                                    development. </span>
+                                <br>
+                                <span class="text-primary  fw-bolder">Price : 20$</span>
                             </div>
                         </div>
                     </div>
                 </div>
-                <button class="btn btn-info bg-info text-light fs-3 fw-semibold">
-                    See More
-                    Courses</button>
+            </div>
+            <div class="text-center">
+                <div class="btn btn-primary p-2">See More Courses</div>
             </div>
         </section>
         <!-- courses section end -->
+
         <!-- working section start -->
-        <section class="pb-5 pt-5">
-            <div class="row">
-                <div class="col row-cols-md-1 row-cols-lg-2   d-lg-flex border border-2">
-                    <div>
-                        <img src="./images/working.png" alt="">
-                    </div>
-                    <div class="bg-light ps-5 pt-5">
-                        <div class="d-flex flex-column align-items-center justify-content-center ">
-                            <h1 class="fs-1 fw-bolder">Explore The elearning Institute</h1>
-                            <p class="pt-5">There’s a lot to know about UX and this article is just the tip of the
-                                iceberg.
-                                There’s
-                                increasing demand for UX designers—tech professionals who are highly skilled in
-                                research,
-                                empathic design, prototyping, usability testing, and more. This is party because the UX
-                                design
-                                skillset is so broadly useful to business and because it so specifically benefits the
-                                people
-                                who
-                                are paying for products and services.</p>
-                            <p>If you’re interested in learning more about UX design, check out our online Intro to UX
-                                Design
-                                Course where you’ll learn about the UX design process in-depth—from concept ideation to
-                                product
-                                delivery. During the course, you’ll put the fundamental UX knowledge you’ll learn to use
-                                as
-                                you
-                                create your very own app design.</p>
-                            <div class="container text-center pt-5">
-                                <div class="row">
-                                    <div class="col">
-                                        <h1 class="fs-1 fw-bolder">4.2K+</h1>
-                                        <p>Online Courses</p>
-                                    </div>
-                                    <div class="col">
-                                        <h1 class="fs-1 fw-bolder">500+</h1>
-                                        <p>Expert member</p>
-                                    </div>
-                                    <div class="col">
-                                        <h1 class="fs-1 fw-bolder">2K+</h1>
-                                        <p>Rating & Review</p>
-                                    </div>
-                                </div>
+
+
+        <section class="container border-0 mb-5">
+            <div class="card d-flex flex-column flex-lg-row flex-md-row flex-sm-column align-items-center h-50 w-100">
+                <div class="col-12 col-lg-6 col-md-6 col-sm-12 h-50">
+                    <img src="images/working.png" class="img-fluid" alt="...">
+                </div>
+
+                <div class="card-body h-100 w-50">
+                    <h1 class="fw-bold">Explore The elearning Institute</h1>
+
+                    <p class="card-text text-secondary mb-3">There’s a lot to know about UX and this article is just the
+                        tip of the
+                        iceberg.
+                        There’s
+                        increasing demand for UX designers—tech professionals who are highly skilled in
+                        research,
+                        empathic design, prototyping, usability testing, and more. This is party because the UX
+                        design
+                        skillset is so broadly useful to business and because it so specifically benefits the
+                        people
+                        who
+                        are paying for products and services.</p>
+                    <p>If you’re interested in learning more about UX design, check out our online Intro to UX
+                        Design
+                        Course where you’ll learn about the UX design process in-depth—from concept ideation to
+                        product
+                        delivery. During the course, you’ll put the fundamental UX knowledge you’ll learn to use
+                        as
+                        you
+                        create your very own app design.
+                    </P>
+
+                    <div class="container text-center pt-5">
+                        <div class="row">
+                            <div class="col">
+                                <h1 class="fs-1 fw-bolder">4.2K+</h1>
+                                <p>Online Courses</p>
+                            </div>
+                            <div class="col">
+                                <h1 class="fs-1 fw-bolder">500+</h1>
+                                <p>Expert member</p>
+                            </div>
+                            <div class="col">
+                                <h1 class="fs-1 fw-bolder">2K+</h1>
+                                <p>Rating & Review</p>
                             </div>
                         </div>
-
-                        <div><button class="btn btn-info bg-info text-light pb-2 ps-3">Read More</button>
-                        </div>
                     </div>
+                    <div class="btn btn-primary p-2">Read More</div>
+
                 </div>
             </div>
         </section>
-        <!-- working section end  -->
-        <!-- join button section  -->
-        <section class="pt-5 pb-5">
+
+        <!-- working section end -->
+
+
+        <!-- join button section start -->
+
+
+        <section class="container pt-5 pb-5">
             <div class="bg-primary rounded">
-                <div class="d-flex flex-row justify-content-between align-items-center p-5 ">
+                <div class="d-flex flex-row justify-content-between align-items-center p-5  text-wrap">
                     <div class="text-white">
                         <h1>Ready to join?</h1>
-                        <p>CareerFoundry is an online school for people looking to switch to a rewarding career in tech.
+                        <p>CareerFoundry is an online school for people looking to switch to a rewarding career in
+                            tech.
                             Select a program,</p>
                     </div>
                     <div>
@@ -288,7 +279,11 @@
                 </div>
             </div>
         </section>
-        <section>
+
+        <!-- join button section end -->
+
+        <!-- card header taitle -->
+        <section class="container">
             <div>
                 <h1>Meet Our Successfull <br> Students</h1>
                 <p>Sometimes the user a designer is creating for isn’t a customer but rather company employees. <br>
@@ -340,8 +335,8 @@
 
 
         <!-- feedback section start  -->
-        <section class="pt-5 pb-5">
-            <div class="containet text-center">
+        <section class="container pt-5 pb-5">
+            <div class=" text-center">
                 <h1>Some Students Feedback
                 </h1>
                 <p class="pb-5"> During the course, you’ll put the fundamental UX knowledge you’ll learn to use as you
@@ -380,7 +375,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col">
+                <div class="col pt-3 pb-3">
                     <div class="border round rounded p-2">
                         <div class="d-flex justify-content-between pb-2">
                             <img src="./images/comma.png" alt="">
@@ -422,8 +417,10 @@
             <p class="pb-5">During the course, you’ll put the fundamental UX knowledge you’ll learn to use as you create
                 your very
                 own app design.</p>
+        </section>
+        <section class="container pt-5 pb-5">
             <div class="row">
-                <div class="col">
+                <div class="col  me-5 ms-5">
                     <div class="accordion" id="accordionExample">
                         <div class="accordion-item">
                             <h2 class="accordion-header" id="headingOne">
@@ -515,10 +512,10 @@
         </section>
         <!-- question section end -->
 
-        <!-- logo section start  -->
-        <section class="container text-center pt-5 d-sm-none">
+        <!--company logo section start  -->
+        <section class="container text-center pt-5 pb-5 d-none d-sm-none d-md-none d-lg-inline w-100">
             <h1 class="fs-1 fw-bolder pb-5">Trusted by over 800+ companies</h1>
-            <div class="row">
+            <div class="row ">
                 <div class="col">
                     <img src="./images/company/company-1.png" alt="">
                 </div>
@@ -539,11 +536,16 @@
                 </div>
             </div>
         </section>
+
         <!-- logo section end -->
+
     </main>
+
     <!-- main section end -->
 
+
     <!-- footer section start  -->
+
     <footer class="bg-black ">
         <div class="text-light text-center p-5">
             <h1 class="pt-5">SA-Tech</h1>
@@ -557,6 +559,7 @@
             </ul>
         </div>
     </footer>
+
     <!-- footer section end -->
 
 
